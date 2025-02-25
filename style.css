@@ -62,7 +62,7 @@ header {
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 10px;
   max-width: calc(var(--size) * 17);
   text-align: center;
   font-weight: bold;
@@ -75,8 +75,16 @@ footer a:visited {
 footer::after {
   content: "Developed by Harsh Pawar";
   display: block;
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 0.9em;
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
   color: black;
   font-weight: bold;
 }
